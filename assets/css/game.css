@@ -12,3 +12,10 @@
     background-color: blueviolet;
     color: white;
 }
+
+.timerbox {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(146, 61, 226);
+    font-family:Arial, Helvetica, sans-serif ;
+    }

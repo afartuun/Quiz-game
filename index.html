@@ -5,21 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Code Quiz</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
     <nav class="score_time">
-        <div class="highscore">View Highscores</div>
-        <div class="timerbox">Timer:&nbsp;<span id='count'>300</span>&nbsp;sec</div>
+        <a href="TopScores.html" class="highscore">View Highscores</a>
+        <!-- <div class="timerbox">Timer:&nbsp;<span id='count'>300</span>&nbsp;sec</div> -->
+        <div id="currentTime"></div>
+
         <!-- <div class="count">Time: 0</div> -->
     </nav>
-    <div class ='wrap'>
+<div id="wrapper">
+    <div id="questionsDiv">
     <span class="header_quiz"><strong>Quiz Challenge</strong></Quiz></span>
         <p class="summary"><strong>To answer the following code-related questions within the time limit.<br />
             Keep in mind that incorrect answers will penalize  your scoretime by ten seconds!</strong></p>
-    <a class = start-quiz-button href="/game.html"onclick=start()>Start Quiz</a>
+        <!-- <a class = start-quiz-button href="./game.html"onclick=start() id="startTime">Start Quiz</a> -->
+        <button id="startTime">Start Quiz</button>
     </div>
+</div>
     
    
 
@@ -30,6 +35,6 @@
 
 
 
-<script src="java.js"></script>
+<script src="./assets/js/MainQuestions.js"></script>
 </body>
 </html>
