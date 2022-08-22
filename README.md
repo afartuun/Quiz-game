@@ -2,27 +2,30 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-This is a short quiz game that asks you small little facts about the President. Once you answer you are able to  view the highscores which directs you to another page displaying the highscores. 
+This a quick little quiz that asks you a short series of questions with facts about the President. 
 
-## Table of Contents 
 
-If your README is long, add a table of contents to make it easy for users to find what they need.
+## Table of Contents
+
 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
 
-## Installation 
-All you have to do is go to the creators github or get the deployed link to take you to the quiz game website where you will be presented with a quick description of how the game works.
+
+## Installation
+
+All you have to do is go to the deployed link which is down below in the [Credits](#credits) section. 
 
 ## Usage
 
-All you have to do is press the "Start Quiz" button where you will be directed to the first question.
+You are prompted which a start quiz button in which you are then shown the first series of questions.
 
-![alt text](assets/image/screenshot.png)
-   
+![alt text](assets/images/screenshot.png)
+
 
 ## Credits
-The link to the deployed link is down below, you can also find the github repo on [Fartuun Ali's page](https://github.com/afartuun/Quiz-game).
-### [Deployed Link](https://afartuun.github.io/Quiz-game/)
+
+You can go to [Fartuun Ali's](https://github.com/afartuun/Quiz-game) github page to find the repo and down below is the link to the repo page as well. 
+
+[Deployed Link](https://afartuun.github.io/Quiz-game/)

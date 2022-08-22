@@ -1,40 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+   
     <title>Code Quiz</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
-    <nav class="score_time">
-        <a href="TopScores.html" class="highscore">View Highscores</a>
-        <!-- <div class="timerbox">Timer:&nbsp;<span id='count'>300</span>&nbsp;sec</div> -->
+    <a href="HighScores.html">View Highscores</a>
+    <div id="wrapper">
         <div id="currentTime"></div>
+        <div id="questionsDiv">
+            <h1>Coding Quiz Challenge</h1>
+            <p>Try to answer the following code-related questions within the time limit. Keep in mind that incorrect
+                answers
+                will penalize your score/time by ten seconds!</p>
+            <ul id="choicesUl"></ul>
+            <button id="startTime">Start Quiz</button>
+        </div>
 
-        <!-- <div class="count">Time: 0</div> -->
-    </nav>
-<div id="wrapper">
-    <div id="questionsDiv">
-    <span class="header_quiz"><strong>Quiz Challenge</strong></Quiz></span>
-        <p class="summary"><strong>To answer the following code-related questions within the time limit.<br />
-            Keep in mind that incorrect answers will penalize  your scoretime by ten seconds!</strong></p>
-        <!-- <a class = start-quiz-button href="./game.html"onclick=start() id="startTime">Start Quiz</a> -->
-        <button id="startTime">Start Quiz</button>
     </div>
-</div>
-    
-   
 
 
+    <script src="questions.js"></script>
 
 
-
-
-
-
-<script src="./assets/js/MainQuestions.js"></script>
 </body>
+
 </html>

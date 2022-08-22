@@ -1,86 +1,140 @@
-* {
-
+#wrapper {
+    position: absolute;
+    left: 30%;
+    top: 20%;
+    width: 500px;
+    height: 500px;
+    border: 1px solid purple;
 }
-
-
-.score_time {
-display: flex;
-justify-content: space-between;
-color: #800080;
-font-family:Arial, Helvetica, sans-serif ;
-}
-.time {
-    color: black;
-}
-
-.header_quiz {
-    display: flex;
-    justify-content: center;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 30px;
-}
-
-.summary {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+#startTime {
+    background-color: purple;
+    margin-left: 33%;
+    padding: 15px 32px;
     font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-
-}
-/* BUTTON */
-
- #startTime {
-    text-align: center;
-    text-decoration: none;
-    margin:auto;
-    display: flex;
-    justify-content: center;
-    background-color: #800080;
-    color: aliceblue;
-    font-weight: 500;
-    width: 10%;
-    padding: 15px 25px;
-    border-radius: 6px;
-    font-size: 15px;
-}
-
- #startTime {
     color: white;
-    background-color: #800080;
-    text-decoration: none;
-    cursor: pointer
+    cursor: pointer;
 }
 #questionsDiv {
     margin: 20px;
 }
+
+#currentTime {
+    float: right;
+}
+
+#goBack {
+    background-color: purple;
+    position: relative;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    top: 30%;
+    left: 55%;
+    width: auto;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+#clear {
+    background-color: purple;
+    position: relative;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    top: 30%;
+    right: 5%;
+    text-align: center;
+    cursor: pointer;
+}
+
+button {
+    border-radius: 8px;
+}
+
+textarea {
+    width: 90%;
+    margin: 20px;
+}
+
+#Submit {
+    background-color: purple;
+    margin-left: 33%;
+    padding: 15px 32px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+label {
+    margin-right: 10px;
+}
+input {
+    margin-bottom: 20px;
+    width: 50%;
+    border: 1px solid lightgray;
+}
+
+h1 {
+    text-align: center;
+}
+
 li {
-    background-color: #800080;
+    background-color: purple;
     margin-top: 10px;
     padding: 5px 15px;
     width: 80%;
     font-size: 18px;
     color: white;
-    border-radius: 6px;
-    cursor: pointer;
-}
-.highscore {
-    color:#800080
-}
-#back, #clear {
-    background-color: #800080;
-            position: relative;
-            /* display: flex; */
-            /* justify-content: center; */
-            padding: 10px;
-            font-size: 20px;
-            color: white;
-            top: 30%;
-            left: 55%;
-            width: auto;
-            text-align: center;
-            text-decoration: none;
-            border-radius: 6px;
-            cursor: pointer;
 }
 
+#createDiv {
+    margin-top: 20px;
+    border-top: 1px solid lightgray;
+}
+
+@media screen and (max-width: 786px) {
+
+body {
+    max-width: 786px;
+}
+#wrapper {
+position: absolute;
+left: 20%;
+}
+
+a {
+margin-left: 20%;
+}
+#goBack {
+    
+    position: relative;
+    left: 55%;
+    cursor: pointer;
+}
+
+#clear {
+    
+    position: relative;
+    right: 5%;
+    cursor: pointer;
+    
+}
+}
+
+@media screen and (max-width: 640px) {
+body {
+    min-width: 640px;
+}
+#wrapper {
+position: absolute;
+left: 10%;
+}
+a {
+  margin-left: 10%;
+}
+
+
+}
